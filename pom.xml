@@ -54,10 +54,7 @@
                     <version>2.22.2</version>
                     <configuration>
                         <properties>
-                            <includeTags>First</includeTags>
-                            <includeTags>Second</includeTags>
-                            <includeTags>Third</includeTags>
-                            <includeTags>Forth</includeTags>
+                            <includeTags>First,Second,Third,Fourth</includeTags>
                         </properties>
                         <testFailureIgnore>false</testFailureIgnore>
                         <argLine>
