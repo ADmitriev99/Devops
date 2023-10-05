@@ -53,9 +53,6 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.2</version>
                     <configuration>
-                        <properties>
-                            <includeTags>First,Second,Third,Fourth</includeTags>
-                        </properties>
                         <testFailureIgnore>false</testFailureIgnore>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
